@@ -2,11 +2,11 @@ name: Flutter_Web
 
 on:
   push:
-    branches: [ master ]
+    branches: [main, master ]
     paths-ignore:
       - '**/README.md'
   pull_request:
-    branches: [ master ]
+    branches: [main, master ]
     paths-ignore:
       - '**/README.md'
 
